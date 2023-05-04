@@ -7,6 +7,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import AppIcons from '@/components/icons'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -29,26 +30,24 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
       <ScrollTopAndComment />
       <article>
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
-          <header className="space-y-1 rounded-lg bg-primary-500 py-4 px-2 text-center sm:py-6 md:py-10">
+          <header className="space-y-1 rounded-lg py-4 px-2 text-center sm:py-6 md:py-10">
             <div className="space-y-1 text-center">
-              <dl className="space-y-10">
-                <div>
-                  <dt className="sr-only">Published on</dt>
-                  <dd className="text-base font-medium leading-6 text-white dark:text-white">
-                    <time dateTime={date}>
-                      {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
-                    </time>
-                  </dd>
+              <div className="flex justify-center text-center">
+                <div className="pr-2 text-sm text-slate-400">
+                  <AppIcons kind="calendar" size="5" />
                 </div>
-              </dl>
+                <time dateTime={date} className="text-sm">
+                  {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
+                </time>
+              </div>
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
               <div>
                 {authorDetails.map((author) => (
-                  <span className="text-white dark:text-white" key={author.name}>
+                  <span className="text-gray:200 dark:text-white" key={author.name}>
                     {' '}
-                    {author.name}
+                    ✏️ {author.name}
                   </span>
                 ))}
               </div>
