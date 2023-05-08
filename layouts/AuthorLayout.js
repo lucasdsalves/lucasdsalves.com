@@ -7,7 +7,7 @@ export default function AuthorLayout({ children, frontMatter }) {
 
   return (
     <>
-      <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
+      <PageSEO title={`About | ${name}`} description={`About me - ${name}`} />
       <div className="pt-8">
         <div className="mb-8 flex flex-col-reverse items-center justify-between sm:flex-row sm:items-center">
           <div className="text-center sm:text-left">

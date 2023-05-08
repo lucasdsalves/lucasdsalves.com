@@ -1,6 +1,6 @@
 ---
 name: Lucas dos Santos Alves
-avatar: /static/images/profile.jpg
+avatar: /static/images/profile-pic.png
 occupation: Software Developer
 email: contact.lucasdsalves@gmail.com
 twitter: https://twitter.com/lucasdsalves
@@ -14,7 +14,7 @@ I'm currently working as a <b>.NET Developer</b> at Cyrela, a Brazilian real est
 
 I have a <b>Bachelor's in Information Systems</b> and an <b>MBA in Project Management</b>. I joined the development world in 2019. Before that, I had previous experiences in IT services/IT infrastructure, and IT project areas.
 
-I love coffee, photography, and traveling.
+I'm christian, love coffee, photography, and traveling.
 
 Also, I'm a big fan of Santos FC and the Green Bay Packers.
 
