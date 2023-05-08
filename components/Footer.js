@@ -16,7 +16,7 @@ export default function Footer() {
           <div>{`© ${new Date().getFullYear()}`}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 flex flex-col space-x-2 text-sm text-gray-500 dark:text-gray-400 md:flex-row">
+        {/* <div className="mb-8 flex flex-col space-x-2 text-sm text-gray-500 dark:text-gray-400 md:flex-row">
           <Link
             className="hover:text-primary-600 hover:underline dark:hover:text-primary-600"
             href="/"
@@ -35,7 +35,7 @@ export default function Footer() {
           >
             about
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   )
