@@ -15,7 +15,7 @@ github: https://github.com/lucasdsalves
    💻 Laptop Dell Vostro 5402
     <ul>
       <li>
-        Specs: 16GB 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  1.69 GHz
+        Specs: 256GB SSD 16GB DDR4 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  1.69 GHz
       </li>
     </ul>  
   </li>

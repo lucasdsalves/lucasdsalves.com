@@ -7,7 +7,25 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import SocialIcon from '@/components/social-icons'
 import AppIcons from '@/components/icons'
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  TelegramShareButton,
+  EmailShareButton,
+  LinkedinShareButton,
+  RedditShareButton,
+  WhatsappShareButton,
+  TwitterIcon,
+  FacebookIcon,
+  TelegramIcon,
+  PocketShareButton,
+  PocketIcon,
+  WhatsappIcon,
+  EmailIcon,
+  LinkedinIcon,
+} from 'react-share'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -19,6 +37,7 @@ const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day:
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags } = frontMatter
+  const postUrl = `${siteMetadata.siteUrl}/blog/${slug}`
 
   return (
     <SectionContainer>
@@ -59,6 +78,51 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
           >
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-4 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-8 pb-8 dark:prose-dark">{children}</div>
+              <div className="grid place-items-center pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
+                <div className="flex items-center space-x-4 pb-2 italic">Share this post</div>
+                <div className="flex items-center space-x-4">
+                  <TwitterShareButton url={postUrl} title={title} via="lucasdsalves">
+                    <TwitterIcon size={32} round={true} />
+                  </TwitterShareButton>
+                  <FacebookShareButton url={postUrl} quote={title} caption="Share on Facebook">
+                    <FacebookIcon size={32} round={true} />
+                  </FacebookShareButton>
+                  <WhatsappShareButton url={postUrl} title={title}>
+                    <WhatsappIcon size={32} round={true} />
+                  </WhatsappShareButton>
+                  <TelegramShareButton url={postUrl} title={title} alt="Telegram">
+                    <TelegramIcon size={32} round={true} />
+                  </TelegramShareButton>
+                  <EmailShareButton
+                    body={'Check out this blog post'}
+                    subject={title}
+                    separator=" : "
+                    url={postUrl}
+                    title="Email"
+                  >
+                    <EmailIcon size={32} round={true} />
+                  </EmailShareButton>
+                  <LinkedinShareButton
+                    summary={'Check out this blog post'}
+                    title={title}
+                    source={siteMetadata.siteUrl}
+                    url={postUrl}
+                  >
+                    <LinkedinIcon size={32} round={true} />
+                  </LinkedinShareButton>
+                  <PocketShareButton url={postUrl} title={title}>
+                    <PocketIcon size={32} round={true} />
+                  </PocketShareButton>
+                  <button
+                    onClick={() =>
+                      navigator.clipboard.writeText(`${siteMetadata.siteUrl}/blog/${slug}`)
+                    }
+                    title="Copy post link to clipboard"
+                  >
+                    <AppIcons kind="clipboard" size="5" />
+                  </button>
+                </div>
+              </div>
             </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">

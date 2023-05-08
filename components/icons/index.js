@@ -1,9 +1,11 @@
 import Calendar from './calendar.svg'
+import Clipboard from './clipboard.svg'
 
 // Icons taken from: https://heroicons.com/
 
 const components = {
   calendar: Calendar,
+  clipboard: Clipboard,
 }
 
 const AppIcons = ({ kind, size = 8 }) => {
