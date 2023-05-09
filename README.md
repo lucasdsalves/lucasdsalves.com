@@ -1,13 +1,15 @@
 # [lucasdsalves.com](https://www.lucasdsalves.com/) 💻🌐🙋‍♂️
 
-This is my personal website built with the following stacks
+This is my personal website built with the following stacks:
 
 - [Next.js](https://nextjs.org/)
 - [Vercel](https://vercel.com)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Markdown](https://mdxjs.com/)
 
-![demo](./public/static/images/demo.png)
+<kbd>
+<img src="./public/static/images/demo.png" border="1">
+</kbd>
 
 ## Running it locally 🏃‍♂️🏠
 
@@ -72,7 +74,7 @@ Run `node ./scripts/compose.js` to bootstrap a new post.
 
 ## Inspiration and template origin 💡
 
-This website was built based on [Timothy Lin](https://github.com/timlrx/tailwind-nextjs-starter-blog) template [Tailwind Nextjs Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog).
+This website was built based on [Timothy Lin](https://github.com/timlrx) template [Tailwind Nextjs Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
 Inspired by:
 
