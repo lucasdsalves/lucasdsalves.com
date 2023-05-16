@@ -1,4 +1,4 @@
-# [lucasdsalves.com](https://www.lucasdsalves.com/) 💻🌐🙋‍♂️
+# [lucasdsalves.com](https://www.lucasdsalves.com/)
 
 This is my personal website built with the following stacks:
 
