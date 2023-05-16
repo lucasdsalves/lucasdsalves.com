@@ -64,7 +64,18 @@ github: https://github.com/lucasdsalves
       <li>
         [Oh My Posh](https://ohmyposh.dev/) styling
       </li>
+      <li>
+        [Chocolatey](https://chocolatey.org/) as package manager for Windows
+      </li>
     </ul>  
+  </li>
+</ul>
+
+## Photographs
+
+<ul>
+  <li>
+   📷 [My photos gallery in VSCO](https://vsco.co/lucasdsalves)
   </li>
 </ul>
 
