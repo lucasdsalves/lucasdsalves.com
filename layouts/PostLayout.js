@@ -84,9 +84,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <TwitterShareButton url={postUrl} title={title} via="lucasdsalves">
                     <TwitterIcon size={32} round={true} />
                   </TwitterShareButton>
-                  <FacebookShareButton url={postUrl} quote={title} caption="Share on Facebook">
-                    <FacebookIcon size={32} round={true} />
-                  </FacebookShareButton>
                   <WhatsappShareButton url={postUrl} title={title}>
                     <WhatsappIcon size={32} round={true} />
                   </WhatsappShareButton>
@@ -113,14 +110,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <PocketShareButton url={postUrl} title={title}>
                     <PocketIcon size={32} round={true} />
                   </PocketShareButton>
-                  <button
-                    onClick={() =>
-                      navigator.clipboard.writeText(`${siteMetadata.siteUrl}/blog/${slug}`)
-                    }
-                    title="Copy post link to clipboard"
-                  >
-                    <AppIcons kind="clipboard" size="5" />
-                  </button>
                 </div>
               </div>
             </div>
