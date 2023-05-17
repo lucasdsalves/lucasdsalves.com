@@ -1,0 +1,89 @@
+---
+title: An introduction to RabbitMQ
+date: '2023-05-16'
+tags: ['#rabbitmq']
+draft: false
+summary: A brief overview of RabbitMQ's main concepts
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+## What is RabbitMQ?
+
+[RabbitMQ](https://www.rabbitmq.com/) is an open-source message-broker software written in Erlang.
+
+It's called Rabbit because it was originally developed by Rabbit Technologies Ltd. 🐇
+
+- It is very reliable and used by a large number of companies
+- Fast and powerful with in-memory processing
+- It implements multiple communication protocols such as AMQP, MQTT, STOMP e HTTP
+- It's a platform-agnostic solution
+
+## How does it work?
+
+Essentially, here are some core players in RabbitMQ.
+
+- **Producer** - application who sends the message
+- **Consumer** - application that receives the message
+- **Message** - information that is sent from a producer to a consumer
+- **Exchange** - message routing agents
+- **Queue** - a sequential data structure that is a medium through which messages are transferred and stored
+
+A **binding** is like a link you set up to bind a queue to an exchange.
+
+The **routing key** is a message attribute the exchange looks at when deciding how the message will be routed to queues depending on the exchange type.
+
+### Basic flow
+
+A producer sends a message to an exchange.
+An exchange is responsible for routing the message to different queues with the help of header attributes, bindings, and routing keys.
+The consumer can be subscribed to a queue and receive the message.
+
+<center>Producer -> Exchange -> Queue -> Consumer</center>
+
+## Types of exchange
+
+- **Direct** - route messages to queues based on a routing key
+- **Fanout** - route messages to all queues that are bound to it
+- **Topic** - route messages to queues that match a wanted pattern
+- **Header** - route messages based on header arguments
+
+<center>![Direct exchange](/static/images/posts/direct-exc-rabbitmq.png)</center>
+## Queue The queue works in FIFO (*First In, First Out*) pattern.
+
+There are some important [queue properties](https://www.rabbitmq.com/queues.html#properties):
+
+- **Durable** - if the queue must be saved even after the broker restart (disk persistence or just in memory)
+- **Autodelete** - remove the queue automatically when the consumer disconnects
+- **Expiry** - defines the time that there are no messages or clients consuming and when this time is reached, the queue is deleted
+- **Message TTL** - 'message time to live', if the message gets to it and it is not consumer, then it gets excluded
+- **Overflow** - when the queue is so busy that is overflowing
+  - Drop-head - older messages are removed to receive new ones
+  - Reject publish - queue rejects messages
+
+## Reliability
+
+RabbitMQ has some [resources](https://www.rabbitmq.com/reliability.html) that can be configured to ensure that messages are always delivered, even encountering failures of various kinds.
+
+- **Consumer acknowledgment** - when the consumer confirms the message receive
+- **Publish confirm** - exchange returns to the producer if it receives the message
+- **Queues and durable messages**
+
+## RabbitMQ simulator
+
+There's a great simulator to understand how it works called [Try RabbitMQ](http://tryrabbitmq.com/).
+
+## RabbitMQ via Docker
+
+You can also run RabbitMQ on your own and see how these concepts work.
+
+To run it via Docker:
+
+```bash
+docker run -d --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+```
+
+RabbitMQ user and password is _guest_.
+
+You can also check more [downloading and installation options](https://www.rabbitmq.com/download.html).
