@@ -1,0 +1,64 @@
+---
+title: Conventional commits
+date: '2023-02-10'
+tags: ['#git']
+draft: false
+summary: How your commit message can make a difference
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+## Conventional commits, have you ever heard of it?
+
+As developers, we are writers. As writers, we intend to communicate through everything we write such as code, documentation and also commits messages.
+
+[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) are a standardized format for writing **commit messages**.
+
+By adopting conventional commits, teams can create commit messages that follow the same structure, and format,
+making easier to review and understand changes that have been made in the codebase.
+
+It clearly helps avoiding terrible commit messages with no meaning and increases team's communication through git commits messages.
+
+Conventional Commits are related to [Semantic Versioning](https://semver.org/) assisting in controlling major, minors and patch versions.
+
+## How does it work?
+
+According to Conventional Commits, the commit message should be structured as:
+
+```
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
+
+The **scope** is optional and used to indicate which part of the project was changed.
+
+The **description** is a brief description of the change. Should be written in imperative mood.
+
+The **body** is free-form and may consist of any number of newline separated paragraphs.
+
+## Types of commits
+
+- **feat** - introduces a new feature to the codebase
+- **fix** - a bug fix
+- **docs** - changes to documentation
+- **style** - changes that are related to white-spaces, formatting, removing comments, missing semil-colons
+- **refactor** - reactoring of code
+- **test** - addition of tests or correcting existing ones
+- **build** - changes related to the build of the application or external dependencies
+- **ci** - changes made to the continuous integration configuration files and scripts
+
+_BREAKING CHANGE_
+
+## A few examples
+
+The following examples are on the Conventional Commits documentation
+
+## VS Code extension
+
+The [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) VS Code extension is very helpful to write commits the Conventional Commits way.
+
+![commit](https://github.com/vivaxy/vscode-conventional-commits/raw/HEAD/assets/docs/icon-on-the-source-control-menu.png)
+
+## Commitlint
