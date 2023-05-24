@@ -1,0 +1,98 @@
+---
+title: Conventional commits
+date: '2023-02-10'
+tags: ['#git', '#conventionalcommits']
+draft: false
+summary: How your commit message can make a difference
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+## Conventional commits, have you ever heard of it?
+
+As developers, we are writers. As writers, we intend to communicate through everything we write such as code, documentation and also commit messages.
+
+[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) are a standardized format for writing **commit messages**.
+
+By adopting conventional commits, teams can create commit messages that follow the same structure, and format, making it easier to review and understand changes made in the codebase.
+
+It clearly helps avoid terrible commit messages with no meaning and increases the team's communication through git commit messages.
+
+Conventional Commits are related to [Semantic Versioning](https://semver.org/) assisting in controlling major, minors, and patch versions.
+
+## How does it work?
+
+According to Conventional Commits, the commit message should be structured as:
+
+```
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
+
+The **type** is an indicator of what has changed. Some of the most famous types will be listed [below](#types-of-commits) in this post.
+
+The **scope** is optional and used to indicate which part of the project was changed.
+
+The **description** is a brief description of the change. Should be written in an imperative mood.
+
+The **body** is free-form and may consist of any number of newline-separated paragraphs.
+
+## Types of commits
+
+- **feat** - introduces a new feature to the codebase
+- **fix** - a bug fix
+- **docs** - changes to documentation
+- **style** - changes that are related to white spaces, formatting, removing comments, missing semi-colons
+- **refactor** - refactoring of code
+- **test** - addition of tests or correcting existing ones
+- **build** - changes related to the build of the application or external dependencies
+- **ci** - changes made to the continuous integration configuration files and scripts
+
+A commit that has a footer **_BREAKING CHANGE:_**, or appends a **_!_** after the _type[scope]_ introduces a change that can break the app and it is usually associated with a new major version.
+
+## A few examples
+
+The following examples are on the Conventional Commits documentation.
+
+**Commit message with ! to draw attention to breaking change**
+
+```
+feat!: send an email to the customer when a product is shipped
+```
+
+**Commit message with scope**
+
+```
+feat(lang): add Polish language
+```
+
+**Commit message with multi-paragraph body and multiple footers**
+
+```
+fix: prevent racing of requests
+
+Introduce a request id and a reference to latest request. Dismiss
+incoming responses other than from latest request.
+
+Remove timeouts which were used to mitigate the racing issue but are
+obsolete now.
+
+Reviewed-by: Z
+Refs: #123
+```
+
+## VS Code extension
+
+The [Conventional Commits VS Code extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) is very helpful extension to write commits the Conventional Commits way.
+
+![ccVsCodeExt](https://github.com/vivaxy/vscode-conventional-commits/raw/HEAD/assets/docs/demo.gif)
+
+## Commitlint
+
+You can also set your project up with Conventional Commits using [Commitlint](https://commitlint.js.org/#/).
+
+Commitlint checks if your commit messages meet the Conventional Commits format.
+
+![commitlint](https://commitlint.js.org/assets/commitlint.svg)
