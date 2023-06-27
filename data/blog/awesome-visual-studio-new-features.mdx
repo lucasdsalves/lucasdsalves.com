@@ -1,0 +1,72 @@
+---
+title: Awesome Visual Studio new features for .NET
+date: '2023-06-16'
+tags: ['#visual-studio', '#dotnet']
+draft: true
+summary: Dev tunnels, API endpoints explorer, and .http files
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+As a .NET developer, [Visual Studio](https://visualstudio.microsoft.com/vs/) is part of my daily basis and one of my favorite IDEs.
+
+In recent updates, Microsoft has launched many cool features in Visual Studio that are just amazing for dev productivity.
+
+On this article, I'll be covering a few of these features that drawn my attention and I could test them lately.
+
+- **Dev tunnels**
+- **.http files**
+- **API endpoints explorer**
+
+## Dev tunnels
+
+Let's suppose you're developing a new .NET web app or endpoint for your .NET API, it's currently running on localhost and you need to make it temporarily available to others over the internet.
+
+The reasons can be diverse, such as testing the app on other devices, showing the app in a presentation, or inviting others to review your work on a web app or API.
+
+In an ordinary scenario, you would have to deploy it somewhere or find out another way to do it.
+
+Not anymore with dev tunnels.
+Dev tunnels enable you to test the app you are building on another device.
+
+According to the definition from Microsoft, "a URL is created that enables any device with an internet connection to connect to an ASP.NET Core project while it runs on localhost".
+
+That's just awesome, isn't it?
+
+Prerequisites
+According to Microsoft, you'll need:
+
+- Visual Studio 2022 version 17.6 or later with the ASP.NET and web development workload installed.
+- You need to be signed in to Visual Studio to create and use dev tunnels. The feature isn't available in Visual Studio for Mac.
+- One or more ASP.NET Core projects. This article uses a solution with two sample projects to demonstrate the feature.
+
+## API endpoints explorer
+
+View -> Other Windows -> Endpoints Explorer
+
+Or you can hit the search bar and look for Endpoints Explorer
+
+It will list endpoints in the API.
+
+Now, right-click on the endpoint you want to test or debug and select Generate Request.
+
+This will lead us to the third topic of this article, .http files.
+
+## .http files
+
+Do you use Postman or Insomnia to work with HTTP requests to a REST API?
+
+You can push this .http file generated, pretty similar to a Postman collection.
+
+https://www.youtube.com/watch?v=yDO6hCZM9yc
+
+https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0
+
+https://devblogs.microsoft.com/visualstudio/web-api-development-in-visual-studio-2022/
+
+https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling
+
+https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yDO6hCZM9yc/0.jpg)](https://www.youtube.com/watch?v=yDO6hCZM9yc)

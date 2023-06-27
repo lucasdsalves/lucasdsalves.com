@@ -36,7 +36,7 @@ const discussUrl = (slug) =>
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, images, tags } = frontMatter
+  const { slug, fileName, date, title, images, tags, readingTime } = frontMatter
   const postUrl = `${siteMetadata.siteUrl}/blog/${slug}`
 
   return (
@@ -66,9 +66,10 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {authorDetails.map((author) => (
                   <span className="text-gray:200 dark:text-white" key={author.name}>
                     {' '}
-                    ✏️ {author.name}
+                    ✏️ {author.name} &nbsp;
                   </span>
                 ))}
+                <span className="text-sm"> ⌚ {readingTime.text} </span>
               </div>
             </div>
           </header>
