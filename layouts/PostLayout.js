@@ -83,7 +83,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 <div className="flex items-center space-x-4 pb-2 italic">Share this post</div>
                 <div className="flex items-center space-x-4">
                   <TwitterShareButton url={postUrl} title={title} via="lucasdsalves">
-                    <TwitterIcon size={32} round={true} />
+                    <SocialIcon kind="twitter" href={postUrl} size="6" />
                   </TwitterShareButton>
                   <WhatsappShareButton url={postUrl} title={title}>
                     <WhatsappIcon size={32} round={true} />
