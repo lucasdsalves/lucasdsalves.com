@@ -54,7 +54,7 @@ Feb 2011 - Jan 2013
 
 ## Academic History
 
-**Project Management, MBA <i>(lato sensu)</i>** <br />
+**Project Management, MBA** <i>(lato sensu)</i> <br />
 <a href="https://portal.fgv.br/" target="_blank">FGV</a> • São Paulo, Brazil <br />
 Mar 2018 - Feb 2020
 

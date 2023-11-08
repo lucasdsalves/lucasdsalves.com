@@ -27,15 +27,15 @@ export default function Home({ posts }) {
               onInit={(typewriter) => {
                 typewriter.typeString('Lucas dos Santos Alves').pauseFor(1500).start()
               }}
-              options={{ loop: true }}
+              options={{ loop: true, delay: 300 }}
             />
           </h1>
           <h2 className="text-3xl font-medium opacity-50 sm:text-6xl md:text-6xl xl:text-7xl">
             <Typewriter
               onInit={(typewriter) => {
-                typewriter.pauseFor(3000).typeString('Software Engineer').start()
+                typewriter.pauseFor(6200).typeString('Software Engineer').start()
               }}
-              options={{ loop: true }}
+              options={{ loop: true, delay: 300 }}
             />
           </h2>
           <Link
