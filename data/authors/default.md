@@ -1,7 +1,7 @@
 ---
 name: Lucas dos Santos Alves
 avatar: /static/images/profile-pic.png
-occupation: Software Developer
+occupation: Software Engineer | .NET Developer
 email: contact.lucasdsalves@gmail.com
 twitter: https://twitter.com/lucasdsalves
 linkedin: https://www.linkedin.com/in/lucasdossantosalves/
@@ -12,7 +12,7 @@ I am a Brazilian developer based in <b>São Paulo, Brazil</b>, passionate about 
 
 I'm currently working as a <b>.NET Developer</b> at Cyrela, a Brazilian real estate company.
 
-I have a <b>Bachelor's in Information Systems</b> and an <b>MBA in Project Management</b>. I joined the development world in 2019. Before that, I had previous experiences in IT services/IT infrastructure, and IT project areas.
+I have a <b>Bachelor's in Information Systems</b> and an <b>MBA</b> <i>(lato sensu)</i> in <b>Project Management</b>. I joined the development world in 2019. Before that, I had previous experiences in IT services/IT infrastructure, and IT project areas.
 
 I'm christian, love coffee, photography, and traveling.
 
@@ -54,7 +54,7 @@ Feb 2011 - Jan 2013
 
 ## Academic History
 
-**Project Management, MBA** <br />
+**Project Management, MBA <i>(lato sensu)</i>** <br />
 <a href="https://portal.fgv.br/" target="_blank">FGV</a> • São Paulo, Brazil <br />
 Mar 2018 - Feb 2020
 
