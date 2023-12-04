@@ -1,11 +1,13 @@
 import Calendar from './calendar.svg'
 import Clipboard from './clipboard.svg'
+import ArrowTopRightSquare from './arrow-top-right-on-square.svg'
 
 // Icons taken from: https://heroicons.com/
 
 const components = {
   calendar: Calendar,
   clipboard: Clipboard,
+  arrowTopRightSquare: ArrowTopRightSquare,
 }
 
 const AppIcons = ({ kind, size = 8 }) => {
