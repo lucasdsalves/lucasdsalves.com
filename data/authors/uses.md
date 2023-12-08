@@ -15,7 +15,7 @@ github: https://github.com/lucasdsalves
    💻 Laptop Dell Vostro 5402
     <ul>
       <li>
-        Specs: 256GB SSD 16GB DDR4 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  1.69 GHz
+        Specs: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  1.69 GHz <br />16GB DDR4 256GB SSD 
       </li>
     </ul>  
   </li>
@@ -24,6 +24,12 @@ github: https://github.com/lucasdsalves
   </li>
   <li>
     🖱️ Redragon Mouse Cobra RGB M711  
+  </li>
+  <li>
+    🪑 DT3 Sports Elise
+  </li>
+  <li>
+    🗄️Pichau Starlift
   </li>
 </ul>
 
@@ -34,10 +40,7 @@ github: https://github.com/lucasdsalves
     🎧 Sony MX-1000XM5
   </li>
   <li>
-    🎧 JBL Quantum 200
-  </li>
-  <li>
-    👂 Apple Airpods second gen
+    👂 Apple Airpods 2nd gen
   </li>
 </ul>
 
@@ -71,7 +74,29 @@ github: https://github.com/lucasdsalves
   </li>
 </ul>
 
-## Photographs
+## Gaming
+
+Last games played:
+
+<ul>
+  <li> 
+     🦝 Biomutant 
+  </li>
+  <li> 
+    🐵 Ancestors 
+  </li>
+  <li> 
+    🧙‍♂️ Hogwarts Legacy 
+  </li>
+  <li> 
+    🤖 Cyberpunk 
+  </li>
+  <li> 
+    ⚽FIFA 23
+  </li>
+</ul>
+
+## Photography
 
 <ul>
   <li>
@@ -79,7 +104,7 @@ github: https://github.com/lucasdsalves
   </li>
 </ul>
 
-## Watches
+## Watching
 
 <ul>
   <li>
@@ -87,7 +112,7 @@ github: https://github.com/lucasdsalves
   </li>
 </ul>
 
-## Reads
+## Reading
 
 <ul>
   <li>
