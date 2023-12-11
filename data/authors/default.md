@@ -64,6 +64,7 @@ Jan 2012 - Dec 2015
 
 ## Certification
 
+Duolingo English Test - Duolingo <br/>
 Microsoft Certified: Power Platform Fundamentals - PL-900 • <a href="https://www.credly.com/badges/7b2fa71d-02dd-4972-afa9-df24b979be7f" target="_blank">View credential</a><br />
 Microsoft Certified: Azure Fundamentals - AZ-900 • <a href="https://www.credly.com/badges/ed63080e-3822-4693-9633-1f3c3f34e594" target="_blank">View credential</a><br />
 Professional Scrum Master I • <a href="https://www.credly.com/badges/c9b28761-bee8-4138-b76f-a045cc1266ac" target="_blank">View credential</a> <br />

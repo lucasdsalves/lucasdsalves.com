@@ -29,7 +29,7 @@ github: https://github.com/lucasdsalves
     🪑 DT3 Sports Elise
   </li>
   <li>
-    🗄️Pichau Starlift
+    🗄️ Pichau Starlift
   </li>
 </ul>
 
@@ -92,7 +92,7 @@ Last games played:
     🤖 Cyberpunk 
   </li>
   <li> 
-    ⚽FIFA 23
+    ⚽ FIFA 23
   </li>
 </ul>
 
