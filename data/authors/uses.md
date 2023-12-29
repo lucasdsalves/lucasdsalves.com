@@ -12,10 +12,10 @@ github: https://github.com/lucasdsalves
 
 <ul>
   <li>
-   💻 Laptop Dell Vostro 5402
+   💻 Avell A52 HYB NEW i7
     <ul>
       <li>
-        Specs: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  1.69 GHz <br />16GB DDR4 256GB SSD 
+        GeForce® RTX 3050 (4GB GDDR6) <br /> Intel® Core™ i7-12650H Alder Lake (24MB cache, 3.5GHz ~ 4.7GHz Turbo Boost Max 3.0) <br />32GB DDR4 (3200MHZ) <br /> SSD M.2 NVME 500GB <br /> Windows 11 Pro
       </li>
     </ul>  
   </li>
