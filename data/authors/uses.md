@@ -80,6 +80,9 @@ Last games played:
 
 <ul>
   <li> 
+     🕷️ Spider-man: Remastered
+  </li>
+  <li> 
      🦝 Biomutant 
   </li>
   <li> 
