@@ -64,9 +64,10 @@ Jan 2012 - Dec 2015
 
 ## Certification
 
-Duolingo English Test<br/>
-Microsoft Certified: Power Platform Fundamentals - PL-900 • <a href="https://www.credly.com/badges/7b2fa71d-02dd-4972-afa9-df24b979be7f" target="_blank">View credential</a><br />
-Microsoft Certified: Azure Fundamentals - AZ-900 • <a href="https://www.credly.com/badges/ed63080e-3822-4693-9633-1f3c3f34e594" target="_blank">View credential</a><br />
-Professional Scrum Master I • <a href="https://www.credly.com/badges/c9b28761-bee8-4138-b76f-a045cc1266ac" target="_blank">View credential</a> <br />
-Management 3.0 Fundamentals <br />
-ITIL V3
+<b>Foundational C# with Microsoft</b>, freeCodeCamp, <a href="https://www.freecodecamp.org/certification/lucasdsalves/foundational-c-sharp-with-microsoft" target="_blank">View credential</a><br/>
+<b>Duolingo English Test</b>, English Level C1<br/>
+<b>Microsoft Certified: Power Platform Fundamentals - PL-900</b>, <a href="https://www.credly.com/badges/7b2fa71d-02dd-4972-afa9-df24b979be7f" target="_blank">View credential</a><br />
+<b>Microsoft Certified: Azure Fundamentals - AZ-900</b>, <a href="https://www.credly.com/badges/ed63080e-3822-4693-9633-1f3c3f34e594" target="_blank">View credential</a><br />
+<b>Professional Scrum Master I</b>, <a href="https://www.credly.com/badges/c9b28761-bee8-4138-b76f-a045cc1266ac" target="_blank">View credential</a> <br />
+<b>Management 3.0 Fundamentals</b> <br />
+<b>ITIL V3</b>
