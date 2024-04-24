@@ -10,7 +10,7 @@ github: https://github.com/lucasdsalves
 
 I am a Brazilian developer based in <b>São Paulo, Brazil</b>, passionate about technology and innovation.
 
-I'm currently working as a <b>.NET Developer</b> at Cyrela, a Brazilian real estate company.
+I'm currently working as a <b>Senior Backend Developer</b> at Thoughtworks, a global leading technology consultancy.
 
 I have a <b>Bachelor's in Information Systems</b> and an <b>MBA</b> <i>(lato sensu)</i> in <b>Project Management</b>. I joined the development world in 2019. Before that, I had previous experiences in IT services/IT infrastructure, and IT project areas.
 
@@ -20,9 +20,13 @@ Also, I'm a big fan of Santos FC and the Green Bay Packers.
 
 ## Career
 
+**Senior Backend Developer** <br />
+<a href="https://www.thoughtworks.com/" target="_blank">Thoughtworks</a> • São Paulo, Brazil <br />
+April 2024 - Present
+
 **.NET Developer** <br />
 <a href="https://www.cyrela.com.br/" target="_blank">Cyrela</a> • São Paulo, Brazil <br />
-Mar 2022 - Present
+Mar 2022 - April 2024
 
 **.NET Developer** <br />
 <a href="https://www.wipro.com/" target="_blank">Wipro</a> • São Paulo, Brazil <br />
@@ -64,10 +68,10 @@ Jan 2012 - Dec 2015
 
 ## Certification
 
-<b>Foundational C# with Microsoft</b>, freeCodeCamp, <a href="https://www.freecodecamp.org/certification/lucasdsalves/foundational-c-sharp-with-microsoft" target="_blank">View credential</a><br/>
-<b>Duolingo English Test</b>, English Level C1<br/>
-<b>Microsoft Certified: Power Platform Fundamentals - PL-900</b>, <a href="https://www.credly.com/badges/7b2fa71d-02dd-4972-afa9-df24b979be7f" target="_blank">View credential</a><br />
-<b>Microsoft Certified: Azure Fundamentals - AZ-900</b>, <a href="https://www.credly.com/badges/ed63080e-3822-4693-9633-1f3c3f34e594" target="_blank">View credential</a><br />
-<b>Professional Scrum Master I</b>, <a href="https://www.credly.com/badges/c9b28761-bee8-4138-b76f-a045cc1266ac" target="_blank">View credential</a> <br />
-<b>Management 3.0 Fundamentals</b> <br />
-<b>ITIL V3</b>
+**Foundational C# with Microsoft**, freeCodeCamp, <a href="https://www.freecodecamp.org/certification/lucasdsalves/foundational-c-sharp-with-microsoft" target="_blank">View credential</a><br/>
+**Duolingo English Test**, English Level C1<br/>
+**Microsoft Certified: Power Platform Fundamentals - PL-900**, <a href="https://www.credly.com/badges/7b2fa71d-02dd-4972-afa9-df24b979be7f" target="_blank">View credential</a><br />
+**Microsoft Certified: Azure Fundamentals - AZ-900**, <a href="https://www.credly.com/badges/ed63080e-3822-4693-9633-1f3c3f34e594" target="_blank">View credential</a><br />
+**Professional Scrum Master I**, <a href="https://www.credly.com/badges/c9b28761-bee8-4138-b76f-a045cc1266ac" target="_blank">View credential</a> <br />
+**Management 3.0 Fundamentals**<br />
+**ITIL V3**

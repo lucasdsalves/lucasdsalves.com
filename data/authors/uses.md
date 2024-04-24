@@ -74,31 +74,6 @@ github: https://github.com/lucasdsalves
   </li>
 </ul>
 
-## Gaming
-
-Last games played:
-
-<ul>
-  <li> 
-     🕷️ Spider-man: Remastered
-  </li>
-  <li> 
-     🦝 Biomutant 
-  </li>
-  <li> 
-    🐵 Ancestors 
-  </li>
-  <li> 
-    🧙‍♂️ Hogwarts Legacy 
-  </li>
-  <li> 
-    🤖 Cyberpunk 
-  </li>
-  <li> 
-    ⚽ FIFA 23
-  </li>
-</ul>
-
 ## Photography
 
 <ul>
