@@ -12,8 +12,6 @@ I am a Brazilian developer based in <b>São Paulo, Brazil</b>, passionate about 
 
 I'm currently working as a <b>Senior Backend Developer</b> at Thoughtworks, a global leading technology consultancy.
 
-I have a <b>Bachelor's in Information Systems</b> and an <b>MBA</b> <i>(lato sensu)</i> in <b>Project Management</b>. I joined the development world in 2019. Before that, I had previous experiences in IT services/IT infrastructure, and IT project areas.
-
 I'm christian, love coffee, photography, and traveling.
 
 Also, I'm a big fan of Santos FC and the Green Bay Packers.
